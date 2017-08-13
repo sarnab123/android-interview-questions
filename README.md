@@ -113,6 +113,14 @@
 * Queue
 
     - Queue is a FIFO data structure - which essentially means that any object that is 'enqueued' first , gets 'dequeued' first.
+    Here is the space and time complexities of queue operations:
+    
+        | Algorithm | Average | Worst Case |
+        |:---------:|:-------:|:----------:|
+        | Space     | Θ(n)    | O(n)       |
+        | Search    | Θ(n)    | O(n)       |
+        | Insert    | Θ(1)    | O(1)       |
+        | Delete    | Θ(1)    | O(1)       |
   
   
 
