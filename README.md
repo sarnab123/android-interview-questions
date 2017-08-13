@@ -111,6 +111,11 @@
             </tr>
         </table>
 * Queue
+
+    - Queue is a FIFO data structure - which essentially means that any object that is 'enqueued' first , gets 'dequeued' first.
+  
+  
+
 * PriorityQueue
 * Dynamic Programming
 * String Manipulation
