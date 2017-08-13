@@ -122,9 +122,18 @@
         | Insert    | Θ(1)    | O(1)       |
         | Delete    | Θ(1)    | O(1)       |
   
-  
+  The most common usages of a Queue data structure is LRU cache - where the oldest used data is purged first when space is a constraint.
 
 * PriorityQueue
+
+Every node has weight and value , weight determines the priority of insertion into the queue - 
+1) Think of binary tree where a heap would mean that the priority of parent has to be less than those of its children.
+2) Always left filled.
+
+Example - Scheduler where jobs (whose execution time is less) would need to be be prioritized over other jobs.
+ 
+
+
 * Dynamic Programming
 * String Manipulation
 * Binary Tree [Wikipedia](https://en.wikipedia.org/wiki/Binary_tree?oldformat=true) 
