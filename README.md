@@ -126,11 +126,11 @@
 
 * PriorityQueue
 
-Every node has weight and value , weight determines the priority of insertion into the queue - 
-1) Think of binary tree where a heap would mean that the priority of parent has to be less than those of its children.
-2) Always left filled.
+    - Every node has weight and value , weight determines the priority of insertion into the queue - 
+        1) Think of binary tree where a heap would mean that the priority of parent has to be less than those of its children.
+        2) Always left filled.
 
-Example - Scheduler where jobs (whose execution time is less) would need to be be prioritized over other jobs.
+    Example - Scheduler where jobs (whose execution time is less) would need to be be prioritized over other jobs.
  
 
 
